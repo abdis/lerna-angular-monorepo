@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of spinner
+ */
+export * from './lib/spinner.service';
+export * from './lib/spinner.component';
+export * from './lib/spinner.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi8uLi9wcm9qZWN0cy9zcGlubmVyL3NyYy8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYyxzQkFBc0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc3Bpbm5lclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NwaW5uZXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zcGlubmVyLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zcGlubmVyLm1vZHVsZSc7XG4iXX0=

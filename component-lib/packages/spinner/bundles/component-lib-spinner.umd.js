@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core')) :
-    typeof define === 'function' && define.amd ? define('spinner', ['exports', '@angular/core'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.spinner = {}, global.ng.core));
+    typeof define === 'function' && define.amd ? define('component-lib-spinner', ['exports', '@angular/core'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['component-lib-spinner'] = {}, global.ng.core));
 }(this, (function (exports, i0) { 'use strict';
 
     var SpinnerService = /** @class */ (function () {
@@ -60,4 +60,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=spinner.umd.js.map
+//# sourceMappingURL=component-lib-spinner.umd.js.map

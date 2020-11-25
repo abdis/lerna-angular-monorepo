@@ -47,4 +47,4 @@ CardModule.decorators = [
  */
 
 export { CardComponent, CardModule, CardService };
-//# sourceMappingURL=card.js.map
+//# sourceMappingURL=component-lib-card.js.map

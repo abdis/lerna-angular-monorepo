@@ -47,4 +47,4 @@ SpinnerModule.decorators = [
  */
 
 export { SpinnerComponent, SpinnerModule, SpinnerService };
-//# sourceMappingURL=spinner.js.map
+//# sourceMappingURL=component-lib-spinner.js.map

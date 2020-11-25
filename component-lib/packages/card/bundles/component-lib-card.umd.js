@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core')) :
-    typeof define === 'function' && define.amd ? define('card', ['exports', '@angular/core'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.card = {}, global.ng.core));
+    typeof define === 'function' && define.amd ? define('component-lib-card', ['exports', '@angular/core'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['component-lib-card'] = {}, global.ng.core));
 }(this, (function (exports, i0) { 'use strict';
 
     var CardService = /** @class */ (function () {
@@ -60,4 +60,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=card.umd.js.map
+//# sourceMappingURL=component-lib-card.umd.js.map

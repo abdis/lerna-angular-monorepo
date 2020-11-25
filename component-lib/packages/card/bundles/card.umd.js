@@ -9,16 +9,13 @@
         }
         return CardService;
     }());
-    CardService.ɵfac = function CardService_Factory(t) { return new (t || CardService)(); };
-    CardService.ɵprov = i0.ɵɵdefineInjectable({ token: CardService, factory: CardService.ɵfac, providedIn: 'root' });
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(CardService, [{
-                type: i0.Injectable,
-                args: [{
-                        providedIn: 'root'
-                    }]
-            }], function () { return []; }, null);
-    })();
+    CardService.ɵprov = i0.ɵɵdefineInjectable({ factory: function CardService_Factory() { return new CardService(); }, token: CardService, providedIn: "root" });
+    CardService.decorators = [
+        { type: i0.Injectable, args: [{
+                    providedIn: 'root'
+                },] }
+    ];
+    CardService.ctorParameters = function () { return []; };
 
     var CardComponent = /** @class */ (function () {
         function CardComponent() {
@@ -27,43 +24,26 @@
         };
         return CardComponent;
     }());
-    CardComponent.ɵfac = function CardComponent_Factory(t) { return new (t || CardComponent)(); };
-    CardComponent.ɵcmp = i0.ɵɵdefineComponent({ type: CardComponent, selectors: [["lib-card"]], decls: 2, vars: 0, template: function CardComponent_Template(rf, ctx) {
-            if (rf & 1) {
-                i0.ɵɵelementStart(0, "p");
-                i0.ɵɵtext(1, " card works! ");
-                i0.ɵɵelementEnd();
-            }
-        }, encapsulation: 2 });
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(CardComponent, [{
-                type: i0.Component,
-                args: [{
-                        selector: 'lib-card',
-                        template: "\n    <p>\n      card works!\n    </p>\n  ",
-                        styles: []
-                    }]
-            }], function () { return []; }, null);
-    })();
+    CardComponent.decorators = [
+        { type: i0.Component, args: [{
+                    selector: 'lib-card',
+                    template: "\n    <p>\n      card works!\n    </p>\n  "
+                },] }
+    ];
+    CardComponent.ctorParameters = function () { return []; };
 
     var CardModule = /** @class */ (function () {
         function CardModule() {
         }
         return CardModule;
     }());
-    CardModule.ɵmod = i0.ɵɵdefineNgModule({ type: CardModule });
-    CardModule.ɵinj = i0.ɵɵdefineInjector({ factory: function CardModule_Factory(t) { return new (t || CardModule)(); }, imports: [[]] });
-    (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(CardModule, { declarations: [CardComponent], exports: [CardComponent] }); })();
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(CardModule, [{
-                type: i0.NgModule,
-                args: [{
-                        declarations: [CardComponent],
-                        imports: [],
-                        exports: [CardComponent]
-                    }]
-            }], null, null);
-    })();
+    CardModule.decorators = [
+        { type: i0.NgModule, args: [{
+                    declarations: [CardComponent],
+                    imports: [],
+                    exports: [CardComponent]
+                },] }
+    ];
 
     /*
      * Public API Surface of card

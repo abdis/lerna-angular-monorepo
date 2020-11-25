@@ -9,16 +9,13 @@
         }
         return SpinnerService;
     }());
-    SpinnerService.ɵfac = function SpinnerService_Factory(t) { return new (t || SpinnerService)(); };
-    SpinnerService.ɵprov = i0.ɵɵdefineInjectable({ token: SpinnerService, factory: SpinnerService.ɵfac, providedIn: 'root' });
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(SpinnerService, [{
-                type: i0.Injectable,
-                args: [{
-                        providedIn: 'root'
-                    }]
-            }], function () { return []; }, null);
-    })();
+    SpinnerService.ɵprov = i0.ɵɵdefineInjectable({ factory: function SpinnerService_Factory() { return new SpinnerService(); }, token: SpinnerService, providedIn: "root" });
+    SpinnerService.decorators = [
+        { type: i0.Injectable, args: [{
+                    providedIn: 'root'
+                },] }
+    ];
+    SpinnerService.ctorParameters = function () { return []; };
 
     var SpinnerComponent = /** @class */ (function () {
         function SpinnerComponent() {
@@ -27,43 +24,26 @@
         };
         return SpinnerComponent;
     }());
-    SpinnerComponent.ɵfac = function SpinnerComponent_Factory(t) { return new (t || SpinnerComponent)(); };
-    SpinnerComponent.ɵcmp = i0.ɵɵdefineComponent({ type: SpinnerComponent, selectors: [["lib-spinner"]], decls: 2, vars: 0, template: function SpinnerComponent_Template(rf, ctx) {
-            if (rf & 1) {
-                i0.ɵɵelementStart(0, "p");
-                i0.ɵɵtext(1, " spinner works! ");
-                i0.ɵɵelementEnd();
-            }
-        }, encapsulation: 2 });
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(SpinnerComponent, [{
-                type: i0.Component,
-                args: [{
-                        selector: 'lib-spinner',
-                        template: "\n    <p>\n      spinner works!\n    </p>\n  ",
-                        styles: []
-                    }]
-            }], function () { return []; }, null);
-    })();
+    SpinnerComponent.decorators = [
+        { type: i0.Component, args: [{
+                    selector: 'lib-spinner',
+                    template: "\n    <p>\n      spinner works!\n    </p>\n  "
+                },] }
+    ];
+    SpinnerComponent.ctorParameters = function () { return []; };
 
     var SpinnerModule = /** @class */ (function () {
         function SpinnerModule() {
         }
         return SpinnerModule;
     }());
-    SpinnerModule.ɵmod = i0.ɵɵdefineNgModule({ type: SpinnerModule });
-    SpinnerModule.ɵinj = i0.ɵɵdefineInjector({ factory: function SpinnerModule_Factory(t) { return new (t || SpinnerModule)(); }, imports: [[]] });
-    (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(SpinnerModule, { declarations: [SpinnerComponent], exports: [SpinnerComponent] }); })();
-    /*@__PURE__*/ (function () {
-        i0.ɵsetClassMetadata(SpinnerModule, [{
-                type: i0.NgModule,
-                args: [{
-                        declarations: [SpinnerComponent],
-                        imports: [],
-                        exports: [SpinnerComponent]
-                    }]
-            }], null, null);
-    })();
+    SpinnerModule.decorators = [
+        { type: i0.NgModule, args: [{
+                    declarations: [SpinnerComponent],
+                    imports: [],
+                    exports: [SpinnerComponent]
+                },] }
+    ];
 
     /*
      * Public API Surface of spinner

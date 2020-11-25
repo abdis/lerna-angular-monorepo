@@ -41,6 +41,7 @@ yarn-error.log
 testem.log
 /typings
 lerna-debug.log
+.npmrc
 
 # System Files
 .DS_Store

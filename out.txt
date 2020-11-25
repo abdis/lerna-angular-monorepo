@@ -1,0 +1,3 @@
+-----BEGIN CERTIFICATE-----
+YWRtaW46I2FkbWluLm5leHVzNTA=
+-----END CERTIFICATE-----

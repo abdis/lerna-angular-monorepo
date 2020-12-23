@@ -1,6 +1,6 @@
 {
-  "name": "spinner",
-  "version": "3.0.1",
+  "name": "component-lib-spinner",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^11.0.1",
     "@angular/core": "^11.0.1"
@@ -8,12 +8,12 @@
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "main": "bundles/spinner.umd.js",
-  "module": "fesm2015/spinner.js",
-  "es2015": "fesm2015/spinner.js",
-  "esm2015": "esm2015/spinner.js",
-  "fesm2015": "fesm2015/spinner.js",
-  "typings": "spinner.d.ts",
-  "metadata": "spinner.metadata.json",
+  "main": "bundles/component-lib-spinner.umd.js",
+  "module": "fesm2015/component-lib-spinner.js",
+  "es2015": "fesm2015/component-lib-spinner.js",
+  "esm2015": "esm2015/component-lib-spinner.js",
+  "fesm2015": "fesm2015/component-lib-spinner.js",
+  "typings": "component-lib-spinner.d.ts",
+  "metadata": "component-lib-spinner.metadata.json",
   "sideEffects": false
 }

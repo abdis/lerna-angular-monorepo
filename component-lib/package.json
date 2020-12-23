@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
+    "storybook": "npm run docs:json && start-storybook -p 6006",
+    "build-storybook": "npm run docs:json && build-storybook",
+    "compodoc": "npx compodoc -p ./tsconfig.json -s"
   },
   "private": true,
   "dependencies": {
@@ -26,9 +30,19 @@
     "@angular-devkit/build-angular": "~0.1100.2",
     "@angular/cli": "~11.0.2",
     "@angular/compiler-cli": "~11.0.1",
+    "@babel/core": "^7.12.9",
+    "@compodoc/compodoc": "^1.1.11",
+    "@storybook/addon-actions": "^6.1.6",
+    "@storybook/addon-essentials": "^6.1.6",
+    "@storybook/addon-links": "^6.1.6",
+    "@storybook/angular": "^6.1.6",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "babel-loader": "^8.2.1",
     "codelyzer": "^6.0.0",
+    "commitizen": "^4.2.2",
+    "conventional-changelog-angular": "^5.0.12",
+    "husky": "^4.3.6",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.1.0",
@@ -42,5 +56,15 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/conventional-changelog-angular"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   }
 }

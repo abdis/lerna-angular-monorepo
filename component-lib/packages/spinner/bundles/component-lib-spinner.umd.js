@@ -31,7 +31,7 @@
     SpinnerComponent.ɵcmp = i0.ɵɵdefineComponent({ type: SpinnerComponent, selectors: [["lib-spinner"]], decls: 2, vars: 0, template: function SpinnerComponent_Template(rf, ctx) {
             if (rf & 1) {
                 i0.ɵɵelementStart(0, "p");
-                i0.ɵɵtext(1, " New spinner works! ");
+                i0.ɵɵtext(1, " New spinner works!! ");
                 i0.ɵɵelementEnd();
             }
         }, encapsulation: 2 });
@@ -40,7 +40,7 @@
                 type: i0.Component,
                 args: [{
                         selector: 'lib-spinner',
-                        template: "\n    <p>\n      New spinner works!\n    </p>\n  ",
+                        template: "\n    <p>\n      New spinner works!!\n    </p>\n  ",
                         styles: []
                     }]
             }], function () { return []; }, null);

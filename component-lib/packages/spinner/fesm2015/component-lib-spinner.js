@@ -20,7 +20,7 @@ class SpinnerComponent {
 SpinnerComponent.ɵfac = function SpinnerComponent_Factory(t) { return new (t || SpinnerComponent)(); };
 SpinnerComponent.ɵcmp = ɵɵdefineComponent({ type: SpinnerComponent, selectors: [["lib-spinner"]], decls: 2, vars: 0, template: function SpinnerComponent_Template(rf, ctx) { if (rf & 1) {
         ɵɵelementStart(0, "p");
-        ɵɵtext(1, " New spinner works! ");
+        ɵɵtext(1, " New spinner works!! ");
         ɵɵelementEnd();
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(SpinnerComponent, [{
@@ -29,7 +29,7 @@ SpinnerComponent.ɵcmp = ɵɵdefineComponent({ type: SpinnerComponent, selectors
                 selector: 'lib-spinner',
                 template: `
     <p>
-      New spinner works!
+      New spinner works!!
     </p>
   `,
                 styles: []

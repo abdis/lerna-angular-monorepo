@@ -65,7 +65,7 @@
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "git cz --hook || true"
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   }
 }

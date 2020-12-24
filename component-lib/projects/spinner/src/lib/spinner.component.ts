@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-spinner',
   template: `
     <p>
-      spinner works!
+      New spinner works!
     </p>
   `,
   styles: [

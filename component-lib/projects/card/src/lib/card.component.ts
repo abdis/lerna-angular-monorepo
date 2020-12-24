@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-card',
   template: `
     <p>
-      card works!
+      New card works!
     </p>
   `,
   styles: [

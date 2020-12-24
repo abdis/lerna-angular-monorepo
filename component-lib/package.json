@@ -10,7 +10,8 @@
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
-    "compodoc": "npx compodoc -p ./tsconfig.json -s"
+    "compodoc": "npx compodoc -p ./tsconfig.json -s",
+    "commit": "cz"
   },
   "private": true,
   "dependencies": {
